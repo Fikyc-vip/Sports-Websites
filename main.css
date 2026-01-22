@@ -1,0 +1,126 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    margin-bottom: 5mm;
+}
+main nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    margin-bottom: auto;
+    gap: 5mm;
+}
+main nav *:nth-child(4) {
+    margin-left: auto;
+}
+main img {
+    height: auto; 
+    /* width: auto;  */
+    max-height: 50mm;
+    flex: 1;
+}
+
+main nav {
+    align-items: center;
+}
+
+main nav button {
+    height: 4rem;
+    color: darkslategray;
+    background-color: transparent;
+    font-size: large;
+    border-width: 1mm;
+    border-color: transparent;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+main nav button:hover {
+    background-color: rgb(61, 71, 71);
+    border-width: 1mm;
+    border-radius: 1rem;
+    border-color: wheat;
+    color: wheat;
+    cursor: pointer;
+    transition: color 200ms linear, background-color 500ms linear, border-width 200ms linear, border-radius 200ms linear, border-color 200ms linear;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    gap: 50mm;
+    margin-bottom: 15mm;
+}
+.card {
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fdfaef;
+    height: 100mm;
+    border-width: 1mm;
+    border-radius: 1rem;
+    border-color: darkslategray;
+    width: 60mm;
+}
+.card *:nth-child(3) {
+    padding-top: 5mm;
+    margin-top: auto;
+}
+.card * {
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+
+.card:hover {
+    background-color: rgb(226, 205, 166);
+    border-width: 1mm;
+    border-radius: 2rem;
+    border-color: darkslategray;
+    cursor: pointer;
+    transition: background-color 500ms linear, border-width 200ms linear, border-radius 200ms linear, border-color 200ms linear;
+}
+
+.slide {
+    /* height: 4rem; */
+    color: darkslategray;
+    background-color: transparent;
+    font-size: large;
+    border-width: 1mm;
+    border-color: transparent;
+    font-weight: bolder;
+    font-size: 6mm;
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+}
+.slide:hover {
+    background-color: rgb(61, 71, 71);
+    border-width: 1mm;
+    border-radius: 1rem;
+    border-color: wheat;
+    color:wheat;
+    cursor: pointer;
+    transition: color 500ms linear, background-color 500ms linear, border-width 200ms linear, border-radius 200ms linear, border-color 200ms linear;
+}
+.header-list {
+    border-bottom: 0.5mm solid darkslategray;
+    margin-top: auto;
+    display: inline-block;
+    margin-bottom: 5mm;
+    display: flex;
+    font-size: 10mm;
+}

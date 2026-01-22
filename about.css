@@ -1,0 +1,22 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 163, 129);
+    padding-left: 150mm;
+    padding-right: 150mm;
+    text-align: center;
+    padding-top: 30mm;
+    padding-bottom: 50mm;
+}
+.about p {
+    font-size: large;
+}
+.about section {
+    border: solid;
+    border-width: 0.5mm;
+    border-color: darkslategray;
+    padding-left: 15mm;
+    padding-right: 15mm;
+    padding-bottom: 15mm;
+    border-radius: 2rem;
+}

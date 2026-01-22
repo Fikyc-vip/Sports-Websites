@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategray;
+    color: wheat;
+    justify-content: space-between;
+    gap: 50%;
+    padding-left: 15mm;
+    padding-right: 15mm;
+    padding-top: 15mm;
+    padding-bottom: 15mm;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+}
+footer section nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1mm;
+}
+footer section p {
+    align-self: flex-end;
+    padding-right: 5mm;
+}
+
+footer nav button {
+    height: 4rem;
+    color: wheat;
+    background-color: transparent;
+    font-size: large;
+    border-width: 1mm;
+    border-color: transparent;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+footer nav button:hover {
+    background-color: rgb(61, 71, 71);
+    border-width: 1mm;
+    border-radius: 1rem;
+    border-color: wheat;
+    cursor: pointer;
+    transition: background-color 500ms linear, border-width 200ms linear, border-radius 200ms linear, border-color 200ms linear;
+}
